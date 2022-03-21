@@ -3144,7 +3144,7 @@ if (c1 == "H") {
   
   function redDotC1() {
     let x1 = document.getElementById("comm").rows[2].cells;
-    x1[1].innerHTML = "🔴";
+    x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
   
@@ -3161,7 +3161,7 @@ if (c2 == "H") {
   
   function redDotC2() {
     let x2 = document.getElementById("comm").rows[2].cells;
-    x2[2].innerHTML = "🔴";
+    x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
